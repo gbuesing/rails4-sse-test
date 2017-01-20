@@ -4,6 +4,13 @@ Rails concurrent SSE test with Passenger and Puma
 Example app. Trying to get Passenger to process requests to ActionController::Live endpoint concurrently, like Puma.
 
 
+UPDATE
+----
+
+This question has been answered. To make ActionController::SSE run concurrently with Passenger, you need Enterprise -- see answer in the Google Group:
+https://groups.google.com/forum/#!topic/phusion-passenger/JtUOv4M2RzM
+
+
 To Run tests
 ---
 
